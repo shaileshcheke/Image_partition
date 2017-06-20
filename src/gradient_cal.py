@@ -17,6 +17,5 @@ if __name__ == "__main__":
 	img_m = filters.sobel(img_g)
 
 	#Direction calculation for gradient.
-	np.degrees(np.arctan2(img_v, img_h))
+	img_d = np.degrees(np.arctan2(img_v, img_h))
 
-	
